@@ -1,0 +1,1538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Principal */
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.contenedorprimero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(180deg, rgba(41,50,80,1) 11%, rgba(109,212,126,1) 95%);
+    width: 100%;
+}
+.superior{
+    width: 100%;
+    height: 50px;
+}
+.superiorbot{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    margin: 12px 12px 0px 300px;
+    align-items: center;
+}
+.dir{
+    color: white;
+    font-size: 15px;
+}
+.tel{
+    color: white;
+    text-decoration: none;
+}
+.mail  {
+    color: white;
+    text-decoration: none;
+}
+.buscador{
+    height: 30px;
+    width: 200px;
+}
+.ing{
+    color: white;
+    text-decoration: none;
+}
+.loginIng{
+    border: solid 1px;
+    padding: 5px;
+    background-color: #293250;
+    border-radius: 4px;
+}
+.reg{
+    color: white;
+    text-decoration: none;
+}
+.loginReg{
+    border: solid 1px;
+    padding: 5px;
+    background-color: #293250;
+    border-radius: 4px;
+}
+.carrito{
+    font-size: 25px;
+    color: #293250;
+}
+.fa-solid, .fas{
+    color: #293250;
+}
+
+.logo{
+    height: 100px;
+    width: 250px;
+}
+.nav{
+    background-color: #293250;
+    height: 50px;
+    width: 100%;
+    margin-left: 136px;
+}
+.logohamb{
+    display: none;
+}
+
+#toggle-menu{
+    display: none;
+}
+.loginIng1{
+    display: none;
+}
+.loginReg1{
+    display: none;
+}
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 35px;
+}
+.logolist{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.navegador{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.portada{
+    padding-top: 100px;
+}
+.contenedortxt{
+    position: absolute;
+    background-color: #f9f6f6cf;
+    margin: 100px 75px 100px 500px;
+}
+.slogan{
+    text-align: center;
+    font-size: 65px;
+    margin: 50px 75px 0px 75px;
+    color: #293250;
+}
+.textoslogan{
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 75px 50px;
+}
+.imagenportada{
+    width: 100%;
+    height: 557px;
+}
+.contenedorboton{
+    margin: 45px 0px 25px;
+    text-align: center;
+}
+.boton1 {
+    background-color: #6dd47e;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: "Barlow",sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nosotros{
+    width: 100%;
+}
+.contenedornosotros{
+    display: flex;
+}
+.contenedortxtnos{
+    background-color: #293250;
+    padding: 75px 50px 0px;
+    font-size: 23px;
+    color: white;
+    text-align: justify;
+    font-family: "Barlow",sans-serif;
+}
+.imagennosotros{
+    width: 600px;
+    height: 443px;
+}
+.nosotrostxt2{
+    margin-top: 10px;
+}
+.linea{
+    height: 15px;
+    border: none;
+    font-size: 25px;
+    background-color: #6dd47e;
+}
+.linea1{
+    height: 15px;
+    border: none;
+    font-size: 25px;
+    background-color: #293250;
+    margin-top: 35px;
+}
+.linea2{
+    height: 15px;
+    border: none;
+    font-size: 25px;
+    background-color: #293250;
+
+}
+.prodespec{
+    text-align: center;
+    margin: 30px;
+    font-size: 36px;
+}
+.cajaespec{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.cajaicono{
+    margin: 0px 35px;
+}
+.imagenicono{
+    width: 200px;
+}
+.textoicono{
+    margin: 20px;
+    font-size: 20px;
+}
+.enlaceespec{
+    background-color: #293250;
+    color: white;
+    padding: 5px;
+    margin-top: 25px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.sectionprod{
+    background-color: #6dd47e;
+    margin-top: 35px;
+}
+.productos{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    padding-top: 35px;
+    font-size: 36px;
+}
+.sectorprod{
+    padding-bottom: 25px;
+}
+.cardprod{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 45px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 33.3%;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-img-top{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+}
+.card-body{
+    padding: 0px 15px 17px 15px;
+    background-color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.card-bodyesp{
+    padding: 0px 15px 19px 15px;
+    background-color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.card-textesp{
+    padding-top: 35px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+.card-text{
+    font-size: 15px;
+    padding-top: 15px;
+}
+.titulonovedades{
+    color: #293250;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: initial;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.noticiagral{
+    display: flex;
+    margin: 25px 50px 25px 50px;
+    background-color: #f4f4f5;
+}
+.noticiacuadro{
+    padding: 35px;
+}
+.imagennoti{
+    width: 350px;
+    height: 175px;
+}
+.titulonoticia{
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 20px;
+}
+.textonoticia2{
+    text-align: justify;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+.botonnews{
+    background-color: #6dd47e;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: "Barlow",sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.sectioncontacto{
+    display: flex;
+    width: 100%;
+}
+.titulocuadraizq{
+    color: white;
+    text-align: initial;
+    margin: 75px 0px 30px 100px;
+    font-size: 35px;
+}
+.textocuadraizq{
+    color: white;
+    margin: 0px 75px 50px 100px;
+    font-size: 18px;
+}
+.iconocontacto{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+.formafondoicono{
+    border-radius: 50px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+.imageniconocontacto{
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px 50px 12px;
+}
+.textoladoicono{
+    margin: 10px 35px;
+}
+.textoladoicononuevo{
+    text-decoration: none;
+    color: white;
+}
+.cuadraizq{
+    background-color: #293250;
+}
+.titulocuadrader{
+    text-align: center;
+    color: #293250;
+    margin-top: 75px;
+    font-size: 35px;
+}
+.formulariocontacto{
+    margin: 30px 50px 50px 90px;
+}
+.primerinput{
+    display: block;
+    color: #293250;
+}
+.inputnombre{
+    width: 100%;
+    margin-top: 5px;
+    height: 30px;
+}
+.contenedorinputtelcorr{
+    display: flex;
+}
+.segundoinput{
+    display: block;
+    margin-top: 15px;
+    color: #293250;
+}
+.inputtelefono{
+    margin-top: 5px;
+    height: 30px;
+}
+.tercerinput{
+    display: block;
+    margin-left: 50px;
+    margin-top: 15px;
+    color: #293250;
+}
+.inputmail{
+    margin-left: 50px;
+    width: 312px;
+    margin-top: 5px;
+    height: 30px;
+}
+.cuartoinput{
+    display: block;
+    margin-top: 15px;
+    color: #293250;
+}
+.textocontacto{
+    margin-top: 5px;
+    width: 100%;
+    height: 140px;
+}
+.inputenviar{
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: #293250;
+    color: white;
+    padding: 11px;
+}
+.footer{
+    background-color: #f4f4f5;
+}
+.contenedorfooter{
+    padding: 20px;
+}
+.listaredes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.redes{
+    font-size: 25;
+    margin: 15px;
+    color: #6dd47e;
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: #6dd47e;
+}
+.contenedorcopy{
+    text-align: center;
+}
+.listalegal{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.infolegal{
+    margin: 15px
+}
+.linklegal{
+    color: black;
+}
+.WhatsApp{
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    z-index: 10;
+}
+
+/* Nosotros */
+
+.contenedorsectionnos{
+    display: flex;
+    padding-top: 100px;
+}
+.contenedortxtsectionnos{
+    background-color: #f4f4f5;
+}
+.titulonosotros{
+    font-size: 35px;
+    text-align: initial;
+    margin: 35px 50px 20px 75px;
+}
+.sectionnosotrostxt1{
+    text-align: justify;
+    margin: 0px 75px;
+    font-size: 23px;
+}
+.contenedormision{
+    background-color: #6dd47e;
+    color: white;
+}
+.titulomisionyvision{
+    text-align: center;
+    font-size: 35px;
+    padding: 55px 0px 25px 0px;
+}
+.textomisionyvision{
+    font-size: 22;
+    margin: 25px 400px 0px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+.contenedorvision{
+    background-color: #293250;
+    color: white;
+}
+.lineanos{
+    border: solid 1px;
+    width: 100px;
+    margin: auto;
+    color: white;
+}
+
+/* Producto */
+
+.sectionproducto{
+    background-color: #f4f4f5;
+    padding-top: 100px;
+}
+.tituloproducto{
+    font-size: 35px;
+    text-align: center;
+    padding: 35px;
+}
+.categoria{
+    font-size: 25px;
+    margin: 0px 25px;
+    text-align: center;
+}
+.cardcategoria{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+}
+.card1{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+}
+.card-img1{
+    width: 200px;
+    height: 200px;
+}
+.sectorprod1{
+    background-color: #293250;
+    padding-bottom: 25px;
+    margin: 0px 30;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.subtituloprod{
+    color:white;
+    padding: 25px 0px 0px
+}
+
+/* Novedades */
+
+.sectionnov1{
+    padding-top: 100px;
+}
+.noticiagral1{
+    display: flex;
+    margin: 25px 50px 25px 50px;
+    background-color: #f4f4f5;
+    flex-direction: column;
+}
+.noticiacuadroind1{
+    display: flex;
+}
+.titulonoticia1{
+    text-align: justify;
+    font-size: 20px;
+}
+.textonoticia1{
+    margin: 0px 40px;
+}
+.texto-noticia{
+    margin: 15px 0px;
+    text-align: justify;
+}
+.suscripcion{
+    display: flex;
+    background-color: #293250;
+    align-items: center;
+}
+.titulosuscrip{
+    font-size: 40px;
+    color: white;
+    margin: 15px 50px 15px 50px;
+}
+.formsusc{
+    margin-left: 85px;
+}
+.correocontra{
+    height: 30px;
+    width: 500px;
+}
+.enviar{
+    color: white;
+    padding: 8px;
+    border: solid 1px #6dd47e;
+    background-color: #6dd47e;
+    margin: 0px 15px;
+}
+/* Contacto */
+
+.contenedorcontacto{
+    display: flex;
+    width: 100%;
+}
+.cuadrader1{
+    background-color: #6dd47e;
+    width: 50%;
+}
+.sectioncontacto1{
+    width: 100%;
+    padding-top: 100px;
+}
+.titulocontacto{
+    padding: 35px;
+    font-size: 35px;
+    text-align: center;
+    color: #293250;
+}
+.lineaconta{
+    height: 15px;
+    border: none;
+    font-size: 25px;
+    background-color: #293250;
+}
+.sectcuadraizq1{
+    width: 50%;
+    background-color: white;
+    border: 10px solid #6dd47e;
+}
+.titulocuadraizq1{
+    color: #293250;
+    text-align: initial;
+    margin: 50px 0px 30px 0px;
+    font-size: 35px;
+    margin: 50px 0px 20px;
+}
+.textocuadraizq1{
+    margin: 0px 75px 50px 100px;
+    font-size: 18px;
+    color: #293250;
+}
+.textoladoicononuevo1{
+    margin: 10px 15px;
+    color: #293250;
+}
+.contenedorderecho{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.mapaubicacion{
+    padding: 10px 50px 25px;
+}
+.inputenviar1{
+    background-color: #6dd47e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 11px;
+}
+.direccionlista{
+    list-style: none;
+    margin-top: 15px;
+}
+.formulariocontacto1{
+    margin: 30px 50px 50px 50px;
+}
+.direccion{
+    margin-top: 5px;
+}
+.telefono{
+    margin-top: 5px;
+}
+.mail1{
+    margin-top: 5px;
+    color: black;
+}
+.mapa{
+    height: 250px;
+    border: 5px solid white;
+}
+.titulocuadrader1{
+    text-align: center;
+    color: #293250;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+/* Carrito */
+.mensaje{
+    padding-top: 150px;
+    text-align: center;
+}
+.submensaje{
+    text-align: center; 
+}
+.footer1{
+    margin-top: 250px;
+    background-color: #f4f4f5;
+}
+
+/* Login */
+
+.ingreso{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url(./insumos-medicos-hospitales_2048x1152.jpg);
+    background-size: cover;
+    padding-bottom: 1px;
+}
+.contenedoringreso{
+    text-align: center;
+    margin: 100px 450px;
+    background-color: #f4f4f5;
+    padding: 40px;
+    border-radius: 15px
+}
+.logologin{
+    height: 100px;
+    width: 250px;
+}
+.textoiniciar{
+    font-size: 35px;
+    margin: 20px;
+}
+.contenedorformlogin{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.inputlogin{
+    height: 30px;
+    width: 300px;
+}
+.botonlogin{
+    margin: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #293250;
+    border: solid 1px white;
+    color: white;
+}
+.subtitulologin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.olvido-registro{
+    margin: 0px 15px;
+    color: black;
+}
+
+/* Registro */
+
+.registro{
+    padding-top: 100px;
+    background-image: url(./Insumos.jpg);
+    padding-bottom: 1px;
+}
+.contenedorregistro{
+    text-align: center;
+    margin: 100px 250px;
+    background-color: #f4f4f5;
+    padding: 40px;
+    border-radius: 35px
+}
+
+.tituloformulario{
+    padding: 10px;
+    border-radius: 3px;
+    font-family: "Barlow",sans-serif;
+    color: #293250;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.nombre-apellido{
+    display: block;
+    margin: 10px auto;
+    height: 35px;
+    width: 400px;
+}
+.correo-contraseña{
+    display: block;
+    margin: 10px auto;
+    height: 35px;
+    width: 400px;
+}
+.registrar{
+    display: block;
+    margin: 15px auto;
+    color: white;
+    padding: 8px;
+    border: solid 1px white;
+    background-color: #293250;
+}
+
+/* Media Queries - Responsive */
+
+@media (max-width: 576px){
+    .superior{
+        display: none;
+    }
+    .nav{
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        display: none;
+    }
+    .logohamb{
+        display: block;
+        height: 50px;
+    }
+    .logohambur{
+        height: 50px;
+    }
+    .loginIng1{
+        display: block;
+        margin-top: 10px;
+    }
+    .loginReg1{
+        display: block;
+        margin: 10px 25px;
+    }
+    .ing1{
+        color: white;
+        text-decoration: none;
+        padding: 5px 35px;
+        background-color: #6dd47e;
+        font-size: 20px;
+        border-radius: 5px
+    }
+    .reg1{
+        color: white;
+        text-decoration: none;
+        padding: 5px 28px;
+        background-color: #6dd47e;
+        font-size: 20px;
+        border-radius: 5px
+    }
+    #toggle-menu:checked  + .lista{
+        transform: translateX(0%);
+    }
+    .nav ul{
+        height: calc(100vh - 50px);
+        top: 50px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: #293250;
+        position: absolute;
+        width: 100%;
+        transform: translateX(200%);
+        margin-left: 0px;
+    }
+    .nav i{
+        display: block;
+        color: white;
+        font-size: 25px;
+        padding: 10px 15px;
+        text-align: end;
+    }
+    .navegador{
+        font-size: 30px;
+    }
+    .contenedortxt{
+        margin: 100px auto;
+        width: 100%;
+    }
+    .portada{
+        padding-top: 50px;
+    }
+    .slogan{
+        font-size: 45px;
+        margin: 30px 35px 0px 35px;
+    }
+    .textoslogan{
+        padding: 25px 35px 30px;
+        font-size: 23px;
+    }
+    .contenedorimg1{
+        width: 100%;
+    }
+    .linea{
+        width: 100%;
+    }
+    .contenedortxtnos{
+        padding: 25px 50px 0px;
+        font-size: 15;
+    }
+    .boton1{
+        font-size: 15px;
+    }
+    .contenedorimg{
+        display: none;
+    }
+    .nosotros{
+        width: 100%;
+    }
+    .contenedorboton {
+        margin: 25px 0px 25px
+    }
+    .prodespec{
+        width: 100%;
+        font-size: 25px;
+        margin: 30px 0px;
+    }
+    .cajaespec{
+        flex-direction: column;
+    }
+    .cajaicono{
+        margin: 20px 35px;
+    }
+    .imagenicono{
+        width: 150px;
+    }
+    .enlaceespec{
+        font-size: 15px;
+    }
+    .sectionprod{
+        width: 100%;
+    }
+    .productos{
+        font-size: 25px;
+    }
+    .cardprod{
+        flex-direction: column;
+    }
+    .card{
+        background-color: white;
+        width: 100%;
+    }
+    .card-img-top{
+        margin: auto;
+        width: 210px;
+        height: 210px;
+    }
+    .card-textesp{
+        padding-top: 15;
+    }
+    .sectionnov{
+        width: 100%;
+    }
+    .titulonovedades{
+        font-size: 25px;
+    }
+    .noticiagral{
+        flex-direction: column;
+    }
+    .noticiaimg{
+        text-align: center;
+    }
+    .imagennoti{
+        width: 100%;
+        height: 175px;
+        display: none;
+    }
+    .botonnews{
+        font-size: 15px;
+    }
+    .sectioncontacto{
+        flex-direction: column;
+        width: 100%;
+    }
+   
+    .titulocuadraizq{
+        margin: 45px 0px 20px 80px;
+        font-size: 35px;
+    }
+    .textocuadraizq{
+        margin: 0px 75px 20px 80px;
+    }
+    .iconocontacto{
+        margin-left: 80px;
+    }
+    .cuadraizq{
+        padding-bottom: 10px;
+    }
+    .titulocuadrader{
+        margin-top: 50px;
+    }
+    .formulariocontacto{
+        margin: 30px 50px 50px 50px;
+    }
+    .inputtelefono{
+        width: 125px
+    }
+    .tercerinput{
+        margin-left: 18px;
+    }
+    .inputmail{
+        margin-left: 18px;
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .contenedorsectionnos{
+        padding-top: 50px;
+    }
+    .sectionnosotrostxt1{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .imagennosotros{
+        display: none;
+    }
+    .textomisionyvision{
+        margin: 25px 40px;
+        font-size: 18px;
+    }
+    .sectionproducto{
+        padding-top: 50px;
+    }
+    .cardcategoria{
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        padding: 20px;
+        width: 65%;
+    }
+    .sectionnov1{
+        padding-top: 50px;
+    }
+    .suscripcion{
+        flex-direction: column;
+    }
+    .titulosuscrip{
+        font-size: 20px;
+    }
+    .formsusc{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .correocontra{
+        width: 100%;
+        height: 25px;
+    }
+    .enviar{
+        margin: 15px;
+    }
+    .sectioncontacto1{
+        padding-top: 50px;
+    }
+    .contenedorcontacto{
+        flex-direction: column;
+    align-items: center;
+    }
+    .sectcuadraizq1{
+        width: 100%;
+    }
+    .titulocuadraizq1{
+        margin: 40px 0px 20px;
+    }
+    .cuadrader1{
+        width: 100%;
+    }
+    .mapaubicacion{
+        text-align: center;
+    }
+    .mapa{
+        height: 175px;
+        width: 250px;
+    }
+    .direccionlista{
+        text-align: initial;
+        margin: 15px 50px;
+    }
+    .contenedoringreso{
+        margin: 35px;
+    }
+    .olvido-registro{
+        margin: 0px 10;
+    }
+    .contenedorregistro{
+        margin: 35px;
+    }
+    .nombre-apellido{
+        width: 300px;
+    }
+    .correo-contraseña{
+        width: 300px;
+    }
+    .WhatsApp{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 769px){
+    .dir{
+        display: none;
+    }
+    .buscador{
+        width: 200px;
+        margin: 0px 5px;
+    }
+    .superiorbot{
+        justify-content: flex-end;
+    }
+    .loginIng{
+        margin: 0px 5px
+    }
+    .loginReg{
+        margin: 0px 5px
+    }
+    .carrito{
+        margin: 0px 5px
+    }
+    .nav{
+        margin: 0px;
+    }
+    .lista{
+        margin-left: 250px;
+    }
+    .navegador{
+        font-size: 18px;
+    }
+    .contenedortxt{
+        margin: 82px 120px;
+    }
+    .slogan{
+        font-size: 45px;
+        margin: 50px 50px 0px 50px;
+    }
+    .textoslogan{
+        font-size: 18px;
+        padding: 15px 75px 25px;
+    }
+    .contenedornosotros {
+        height: 350px;
+    }
+    .contenedortxtnos{
+        width: 40%;
+        font-size: 15px;
+        padding: 35px 50px 0px;
+    }
+    .contenedorimg{
+        width: 60%;
+    }
+    .cajaicono{
+        padding-top: 25px;
+    }
+    .imagenicono{
+        width: 150px;
+    }
+    .contenedortxtsectionnos{
+        width: 50%;
+    }
+    .titulonosotros{
+        margin: 15px 20px 15px 20px;
+        text-align: center;
+    }
+    .sectionnosotrostxt1{
+        font-size: 18px;
+        margin: 15px 25px;
+    }
+    .contenedorimgnos{
+        width: 50%;
+    }
+    .imagennosotros{
+        width: 100%;
+        height: 442px;
+    }
+    .textomisionyvision{
+        margin: 30px 75px;
+    }
+    .boton1{
+        font-size: 15px;
+    }
+    .card1{
+        width: 33.3%;
+    }
+    .card-img1{
+        width: 100px;
+        height: 100px;
+    }
+    .noticiacuadroind1{
+        flex-direction: column;
+    }
+    .titulonoticia1{
+        margin-top: 25px;
+    }
+    .suscripcion{
+        flex-direction: column;
+    }
+    .titulosuscrip{
+        font-size: 20px;
+    }
+    .formsusc{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .correocontra{
+        width: 100%;
+        height: 25px;
+    }
+    .enviar{
+        margin: 15px;
+    }
+    .cajaespec{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 150px;
+    }
+    .noticiaimg{
+        width: 100%;
+        text-align: center;
+    }
+    .noticiagral{
+        flex-direction: column;
+    }
+    .noticiacuadroind{
+        display: flex;
+        flex-direction: column;
+    }
+    .textonoticia{
+        margin: 0px 15px;
+    }
+    .titulocontacto{
+        padding: 75px 20px 20px;
+    }
+    .cuadraizq{
+        width: 50%;
+    }
+    .titulocuadraizq{
+        margin: 45px 0px 30px 50px;
+        font-size: 25px;
+    }
+    .textocuadraizq{
+        margin: 0px 75px 50px 50px;
+        font-size: 15px;
+    }
+    .iconocontacto{
+        margin-left: 50px;
+    }
+    .textoladoicononuevo{
+        font-size: 15px;
+    }
+    .cuadrader{
+        width: 50%;
+    }
+    .titulocuadrader{
+        margin: 45px 0px 30px 10px;
+        font-size: 25px;
+    }
+    .formulariocontacto{
+        margin: 30px 30px 50px 45px;
+    }
+    .inputtelefono{
+        width: 100%;
+    }
+    .contmail{
+        width: 100%;
+    }
+    .tercerinput{
+        margin-left: 12px;
+    }
+    .inputmail{
+        margin-left: 12px;
+        width: 163px;
+    }
+    .sectioncontacto1{
+        padding-top: 50px;
+    }
+    .contenedorcontacto{
+        flex-direction: column;
+    align-items: center;
+    }
+    .sectcuadraizq1{
+        width: 100%;
+        border: 1px solid #6dd47e;
+    }
+    .titulocuadraizq1{
+        margin: 40px 0px 20px;
+    }
+    .cuadrader1{
+        width: 100%;
+    }
+    .mapaubicacion{
+        text-align: center;
+    }
+    .mapa{
+        height: 175px;
+        width: 250px;
+    }
+    .direccionlista{
+        text-align: initial;
+        margin: 15px 110px;
+    }
+    .contenedoringreso{
+        margin: 75px;
+    }
+    .contenedorregistro{
+        margin: 35px;
+    }
+    .WhatsApp{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1200px){
+    .dir{
+        display: none;
+    }
+    .superiorbot{
+        justify-content: flex-end;
+    }
+    .buscador{
+        width: 262px;
+    }
+    .loginIng{
+        margin: 0px 10px;
+    }
+    .loginReg{
+        margin: 0px 10px;
+    }
+    .carrito{
+        margin: 0px 10px;
+    }
+    .nav{
+        margin: 0px;
+    }
+    .lista{
+        margin-left: 250px;
+    }
+    .contenedortxt{
+        margin: 82px 120px;
+    }
+    .contenedortxtsectionnos{
+        width: 50%;
+    }
+    .titulonosotros{
+        margin: 20px 50px 15px 25px;
+        text-align: center;
+    }
+    .sectionnosotrostxt1{
+        font-size: 18px;
+        margin: 0px 25px;
+    }
+    .contenedorimgnos{
+        width: 50%;
+    }
+    .textomisionyvision{
+        margin: 30px 100px 0px;
+    }
+    .textoslogan{
+        font-size: 22px;
+        padding: 15px 75px 25px;
+    }
+    .contenedortxtnos{
+        width: 40%;
+        font-size: 18px;
+        padding: 35px 50px 0px;
+    }
+    .contenedorimg{
+        width: 60%;
+    }
+    .imagennosotros{
+        width: 100%;
+    }
+    .cajaespec{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 33.3%;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 250px;
+    }
+    .noticiaimg{
+        width: 100%;
+    }
+    .noticiagral{
+        flex-direction: column;
+    }
+    .noticiacuadroind{
+        display: flex;
+    }
+    .textonoticia{
+        margin: 0px 15px;
+    }
+    .titulosuscrip{
+        font-size: 30px;
+        margin: 15px 20px 15px 30px;
+    }
+    .formsusc{
+        display: flex;
+        margin-left: 50px;
+    }
+    .cuadraizq{
+        width: 50%;
+    }
+    .titulocuadraizq{
+        margin: 45px 0px 30px 50px;
+        font-size: 30px;
+    }
+    .textocuadraizq{
+        margin: 0px 75px 50px 50px;
+    }
+    .iconocontacto{
+        margin-left: 50px;
+    }
+    .cuadrader{
+        width: 50%;
+    }
+    .titulocuadrader{
+        margin: 45px 0px 30px 10px;
+        font-size: 30px;
+    }
+    .formulariocontacto{
+        margin: 30px 30px 50px 45px;
+    }
+    .inputtelefono{
+        width: 100%;
+    }
+    .contmail{
+        width: 100%;
+    }
+    .tercerinput{
+        margin-left: 12px;
+    }
+    .inputmail{
+        margin-left: 12px;
+        width: 230px;
+    }
+    .mapa{
+        width: 100%;
+        height: 200px;
+    }
+    .contenedoringreso{
+        margin: 50px 150px;
+    }
+    .contenedorregistro{
+        margin: 50px 150px;
+    }
+    .WhatsApp{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (min-width: 1200px){
+    .superiorbot{
+        margin: 12px 12px 0px 250px;
+    }
+    .formsusc{
+        display: flex;
+        margin-left: 25px;
+    }
+}
+
+/* Pseudo Elementos y Animacion */
+
+.navegador:hover{
+    color: #6dd47e;
+}
+.contenedorboton:hover{
+    transform: scale(1.2);
+}
+.boton1:hover{
+    background: rgb(41,50,80);
+    background: radial-gradient(circle, rgba(41,50,80,1) 0%, rgba(109,212,126,1) 70%);
+    color: white;
+}
+.botonnews:hover{
+    background-color:#293250;
+    color: #6dd47e;
+}
+.inputenviar:hover{
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+.titulomisionyvision:hover{
+    transform: scale(1.5);
+    transition: transform 1s;
+}
+.textomisionyvision:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.card1:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.botonnews{
+    animation-name: newsletter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes newsletter{
+    0% {
+        width: 407px;
+        text-align: center;
+    }
+    100%{
+        width: 650px;
+        text-align: center;
+    }
+}
