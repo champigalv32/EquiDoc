@@ -397,7 +397,7 @@
 }
 .inputmail{
     margin-left: 50px;
-    width: 312px;
+    width: 342px;
     margin-top: 5px;
     height: 30px;
 }
@@ -716,7 +716,7 @@
 .ingreso{
     padding-top: 100px;
     text-align: center;
-    background-image: url(./insumos-medicos-hospitales_2048x1152.jpg);
+    background-image: url(./fondo\ login.jpg);
     background-size: cover;
     padding-bottom: 1px;
 }
@@ -770,7 +770,7 @@
 
 .registro{
     padding-top: 100px;
-    background-image: url(./Insumos.jpg);
+    background-image: url(./fondo\ registro.webp);
     padding-bottom: 1px;
 }
 .contenedorregistro{
